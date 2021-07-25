@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header{
+    background-color: rgba(64, 34, 24,0.7) ;
+    text-align: center;
+    color: #eee; 
+    font-size: 32px;
+    padding: 10px;
+    /* background-color: #eee;
+    background-color: #C68B59 ; */
+}
+
+.form-section {
+   padding: 50px;
+   float: left;
+   background-color:rgba(64, 34, 24,0.7) ; 
+   margin-top: 50px;
+   margin-left: 50px;
+  position: relative;
+   width: 40%;
+   color: #eee;
+   font-weight: bold;
+}
+
+#bookNameLabel{
+    width: 45%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#bookPriceLabel{
+    width: 45%;
+    position: absolute;
+    left: 10px;
+    top: 35px;
+}
+
+#bookName{
+    width: 45%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#bookPrice{
+    width: 45%;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+}
+
+#submit{
+    width: 45%;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    background-color:  #C68B59 ; 
+    color: #eee; 
+    font-weight: bold;
+}
+
+.table-section {
+    float: left;
+    background-color:rgba(64, 34, 24,0.7) ; 
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 45%;
+    text-align: center;
+    position: relative;
+ }
+ .table-section table{
+     width: 90%;
+     margin:20px auto;
+ }
+ th,td{
+     border: 3px #eee double;
+     color: #eee;
+     padding: 5px;
+ }
+ #total{
+     color:#eee;
+     margin-bottom: 35px;
+ }
+
+ .footer{
+     background-color:rgba(64, 34, 24,0.7)  ;
+     padding: 7px;
+     color: #eee;
+     text-align: center;
+     clear: both;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+
+ }
+
+
+
